@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proposal</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<h4 id="h4">Enter Your Name and press enter</h4>
+	<input type="name" name="Name"onchange="out(this.value)" placeholder="Enter Your Name and hit enter" size="35" id="i">
+
+	
+
+	<h3 id="output"></h3>
+	<input type="submit" value="YES" onclick="yes()" id="yes">
+	<input type="submit" value="NO" onclick="no()" id="no">
+
+	<script>
+		var o = document.getElementById("output");
+		var i = document.getElementById("i");
+		var y = document.getElementById("yes");
+		var n = document.getElementById("no");
+		var h4 = document.getElementById("h4");
+
+
+		
+		y.style.display = "none";
+		n.style.display = "none";
+		function out(val){
+			o.innerHTML = val + ", <span style='color:pink;'>WILL YOU MERRY ME ??😃🙈</span>";
+			i.style.display = "none";
+			h4.style.display = "none";
+			y.style.display = "inline-block";
+			n.style.display = "inline-block";
+		};
+
+		function yes(){
+			o.innerHTML = "I LOVE YOU 🙈😘😍"
+
+		}
+		function no(){
+			o.innerHTML = "Thanks for saving my money 😃"
+
+		}
+
+	</script>
+
+</body>
+</html>

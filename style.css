@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600&display=swap');
+body{
+	background-color: #111;
+	color: #fff;
+	text-align: center;
+}
+h4{
+	font-size: 30px;
+	font-family: Arial;
+}
+#i{
+	padding: 10px;
+	border-left: 3px solid pink;
+}
+
+#output{
+	margin-top: 200px;
+	color: pink;
+	font-family: 'Big Shoulders Display', cursive;
+	font-size: 70px;
+}
+#yes{
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	font-family: 'Big Shoulders Display', cursive;
+}
+#no{
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	font-family: 'Big Shoulders Display', cursive;
+}
